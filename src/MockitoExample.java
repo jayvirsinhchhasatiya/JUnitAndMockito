@@ -2,7 +2,6 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
 
-// Interface representing a math service
 interface MathOperation {
     int add(int a, int b);
     int subtract(int a, int b);
